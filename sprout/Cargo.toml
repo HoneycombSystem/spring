@@ -1,12 +1,8 @@
 [package]
-name = "spring"
+name = "sprout"
 version = "0.1.0"
-edition = "2021"
+edition = "2025"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-graphql = "4.0"
-async-graphql-axum = "4.0"
-axum = "0.6"
-tokio = { version = "1", features = ["full"] }
