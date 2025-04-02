@@ -1,0 +1,25 @@
+{
+    "name": "spring/leaf-dev-container",
+    "image": "golang:1",
+    "appPort": [
+    ],
+    "remoteUser": "root",
+    "mounts": [
+        // replace with your local path to the repo
+        "source=C:\\Users\\haven\\Desktop\\New folder\\spring\\leaf,target=/fpwork/spring/leaf,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "cschlosser.doxdocgen",
+                "GitHub.copilot",
+                "streetsidesoftware.code-spell-checker",
+                "yzhang.markdown-all-in-one",
+                "redhat.vscode-yaml",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
